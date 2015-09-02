@@ -1,0 +1,22 @@
+{
+  "jspm": {
+    "directories": {},
+    "configFile": "jspm.conf.js",
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.4.5",
+      "hmps/foocafe-component": "github:hmps/foocafe-component@master",
+      "text": "github:systemjs/plugin-text@^0.0.2"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.22",
+      "babel-runtime": "npm:babel-runtime@^5.8.20",
+      "core-js": "npm:core-js@^1.1.0"
+    }
+  },
+  "dependencies": {
+    "jspm": "^0.16.2"
+  },
+  "scripts": {
+    "postinstall": "jspm install"
+  }
+}

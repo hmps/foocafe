@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="demo">
+    <head>
+        <meta charset="utf-8">
+        <title>FooCafé JSPM Demo</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css">
+        <!-- <link rel="stylesheet" href="backup/foundation.css"> -->
+    </head>
+    <body>
+
+        <foo-cafe></foo-cafe>
+
+        <script src="jspm_packages/system.js" charset="utf-8"></script>
+        <script src="jspm.conf.js" charset="utf-8"></script>
+        <script type="text/javascript">
+            System.import('lib/main');
+        </script>
+    </body>
+</html>
